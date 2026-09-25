@@ -1,3 +1,7 @@
+.team-section {
+  background-color: var(--color-cloud);
+}
+
 .team-title {
   font-size: 36px;
   font-weight: 700;
