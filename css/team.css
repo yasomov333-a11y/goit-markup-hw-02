@@ -1,46 +1,29 @@
-#team {
-  padding: 24px 40px;
-  background-color: var(--color-cloud);
-}
-
-#team h2 {
+.team-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   text-align: center;
-  margin-bottom: 24px;
 }
 
-#team ul {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-#team li {
+.team-card {
   background-color: var(--color-white);
-  padding-bottom: 32px;
 }
 
-#team img {
-  margin-bottom: 32px;
-}
-
-#team h3 {
+.team-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   text-align: center;
-  margin-bottom: 8px;
 }
 
-#team p {
+.team-position {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-slate);
   text-align: center;
 }

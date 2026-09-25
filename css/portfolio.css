@@ -1,39 +1,23 @@
-#portfolio {
-  padding: 24px 40px;
-}
-
-#portfolio h2 {
+.portfolio-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   text-align: center;
-  margin-bottom: 24px;
 }
 
-#portfolio ul {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-}
-
-#portfolio img {
-  margin-bottom: 8px;
-  border: 1px solid var(--color-cornflower);
-}
-
-#portfolio h3 {
+.portfolio-card-title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
-  margin-bottom: 8px;
 }
 
-#portfolio p {
+.portfolio-card-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-slate);
 }
