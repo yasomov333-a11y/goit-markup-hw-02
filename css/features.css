@@ -1,0 +1,32 @@
+#features {
+  padding: 24px 40px;
+}
+
+#features h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+  margin-bottom: 24px;
+}
+
+#features ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#features h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-navy-blue);
+  margin-bottom: 8px;
+}
+
+#features p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-slate);
+}

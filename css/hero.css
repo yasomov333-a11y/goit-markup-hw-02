@@ -1,0 +1,31 @@
+#hero {
+  background-color: var(--color-navy-blue);
+  padding: 24px 40px;
+}
+
+#hero h1 {
+  max-width: 480px;
+  margin: 0 auto 24px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  color: var(--color-white);
+}
+
+#hero button {
+  padding: 16px 32px;
+  background-color: var(--color-iris);
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#hero button:hover,
+#hero button:focus {
+  background-color: var(--color-ocean);
+}
